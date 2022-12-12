@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hobbies</title>
+
+    <style>
+      html,
+      body {
+        background-color:lightblue;
+        /* margin: 50px; */
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+        overflow: hidden;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 18px;
+        font-weight: 300;
+      }
+    
+      form {
+        background: white;
+        margin: 20px;
+        padding: 30px;   
+      }
+      table {
+        width: 100%;
+        height: auto;
+        padding-left: 50px;
+      }
+      h2 {
+        text-align: center;
+        font-size: 30px;
+        background: red;
+        color: white;
+        padding: 5px;
+      }
+      input {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+      .input {
+        color: coral;
+        border-spacing: 10px;
+      }
+      td {
+        color: blue;
+      }
+    </style>
+  </head>
+  <body>
+      <form action="#">
+        <h2>YOUR HOBBIES</h2>
+        <table> 
+          <tr>
+            <td>Name:</td>
+            <td>
+              <input type="text" placeholder="Your Name" />
+            </td>
+          </tr>
+          <tr>
+            <td>Email:</td>
+            <td>
+              <input type="text" placeholder="Email" />
+            </td>
+          </tr>
+          <tr>
+            <td>Hobbies:</td>
+            <td class="input">
+              <input type="checkbox" name="hobbies" />Sport
+              <input type="checkbox" name="hobbies" />Music
+              <input type="checkbox" name="hobbies" />Read Books
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td class="input">
+              <input type="checkbox" name="hobbies" />Web Browser
+              <input type="checkbox" name="hobbies" />Play Game
+              <input type="checkbox" name="hobbies" />Movies
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td class="input">
+              <input type="checkbox" name="hobbies" />Travel
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td class="submit">
+              <input type="submit" value="Submit Info" />
+              <input type="reset" value="Reset" />
+            </td>
+          </tr>
+        </table>
+      </form>
+  </body>
+</html>

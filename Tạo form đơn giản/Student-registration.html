@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Registration Form</title>
+  </head>
+  <style>
+    html, body {
+        background: rgb(231, 231, 142);
+        color:rgb(15, 71, 239);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        width: 80%;
+    }
+    h2{
+        text-transform: uppercase;
+        background:rgb(209, 236, 247);
+        padding: 7px;
+        text-align: center;
+    }
+    td{
+        margin: 40px;
+        padding: 10px;
+        padding-left: 80px;
+    }
+    input, textarea, select {
+        margin-left: 100px;
+    }
+    .btn{
+        margin-left: 5px;
+    }
+  </style>
+  <body>
+    <form action="#">
+      <table>
+        <h2>Student Registration</h2>
+        <table>
+          <tr>
+            <td>Full Name</td>
+            <td>
+              <input type="text" />
+            </td>
+          </tr>
+          <tr>
+            <td>DOB</td>
+            <td><input type="text"></td>
+          </tr>
+          <tr>
+            <td>Sex</td>
+            <td>
+                <input type="radio" name="" id="">Male
+                <input type="radio" name="" id="">Female
+            </td>
+            <tr>
+                <td>Address</td>
+                <td>
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>Class</td>
+                <td>
+                    <select name="clSelection" id="">
+                        <option value="clSelection"> - Class Selection - </option>
+                        <option value="A1">A1</option>
+                        <option value="A2">A2</option>
+                        <option value="A3">A3</option>
+                        <option value="A4">A4</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td>
+                    <input type="email" name="email" id="">
+                </td>
+            </tr>
+            <tr>
+                <td>Phone</td>
+                <td>
+                    <input type="tel" name="" id="">
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="button" value="Submit">
+                    <input type="button" value="Try Again" class="btn">
+                </td>
+            </tr>
+          </tr>
+        </table>
+      </table>
+    </form>
+  </body>
+</html>

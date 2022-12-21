@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up Form</title>
+    <style>
+      html,
+      body {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+      .container {
+        background: bisque;
+        width: 380px;
+        margin: 150px auto 0;
+        padding: 40px;
+        box-sizing: border-box;
+        height: auto;
+        position: relative;
+      }
+      form {
+        width: 100%;
+        margin-bottom: 10px;
+      }
+      .lable {
+        text-transform: capitalize;
+        font-weight: 700;
+        width: 100%;
+      }
+      .input {
+        margin: 5px 0 0;
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+        box-sizing: border-box;
+      }
+      input{
+        margin-top: 10px;
+      }
+      button {
+        padding: 5px;
+        margin-top: 20px;
+        background: white;
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <form action="#">
+        <div>
+          <lable class="lable"> Name :</lable>
+          <input type="text" class="input" />
+        </div>
+        <div>
+          <lable class="lable"> Email :</lable>
+          <input type="email" class="input" />
+        </div>
+        <div>
+          <lable class="lable"> Phone Number :</lable>
+          <input type="tel" class="input" />
+        </div>
+        <div>
+          <label for="radio" class="lable">Gender :</label> <br>
+          <input type="radio" /> Male 
+          <input type="radio" /> Female
+        </div>
+        <div>
+          <button class="btn">Register</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
